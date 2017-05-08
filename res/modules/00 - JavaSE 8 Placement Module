@@ -1,0 +1,226 @@
+{
+  "Title": "JavaSE 8 Placement Module",
+  "Questions": [
+    {
+      "Response": "Java is a 3rd generation programming language!",
+      "Options": [
+        {
+          "Type": "CHECKBOX",
+          "Valid": false,
+          "Text": "1st generation"
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": false,
+          "Text": "2nd generation"
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": true,
+          "Text": "3rd generation"
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": false,
+          "Text": "4th generation"
+        }
+      ],
+      "Question": "What generation programming language is Java?",
+      "Fixed": false
+    },
+    {
+      "Response": "The Java Virtual Machine (JVM) is Java's solution to portibility. Java uses the JVM as an intermidiate between the operating system and your code. Java is compiled to bytecode which is interpreted on runtime by the JVM. The creators of Java simply create a JVM that runs on a specific operating system.",
+      "Options": [
+        {
+          "Type": "BUTTON",
+          "Valid": true,
+          "Text": "Java Virtual Machine"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": false,
+          "Text": "Java Vital Machine"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": false,
+          "Text": "Java Validation Machine"
+        }
+      ],
+      "Question": "What does JVM stand for?",
+      "Fixed": false
+    },
+    {
+      "Response": "Access modifiers control access to classes, methods and variables.",
+      "Options": [
+        {
+          "Type": "BUTTON",
+          "Valid": true,
+          "Text": "public"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": true,
+          "Text": "private"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": false,
+          "Text": "final"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": false,
+          "Text": "void"
+        }
+      ],
+      "Question": "Which of these keywords are considered access modifiers?",
+      "Fixed": false
+    },
+    {
+      "Response": "An assignment operator assigns a value to a variable. Some assignment operators can both assign and do mathematic operations.",
+      "Options": [
+        {
+          "Type": "CHECKBOX",
+          "Valid": true,
+          "Text": "+="
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": true,
+          "Text": "="
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": true,
+          "Text": "-="
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": false,
+          "Text": "++"
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": false,
+          "Text": "--"
+        }
+      ],
+      "Question": "Which of these symbols are called assignment operators?",
+      "Fixed": false
+    },
+    {
+      "Response": "Control flow statements break up the flow of code, without them code would be executed procedurally.",
+      "Options": [
+        {
+          "Type": "CHECKCODE",
+          "Valid": true,
+          "Text": "if(someValue == true){\n     // do something\n}else{\n     // do something else\n}"
+        },
+        {
+          "Type": "CHECKCODE",
+          "Valid": true,
+          "Text": "do{\n     // do something\n}while(someValue == true);"
+        },
+        {
+          "Type": "CHECKCODE",
+          "Valid": true,
+          "Text": "for(int i = 0; i < someValue; i+=1){\n     // do something\n}"
+        }
+      ],
+      "Question": "Which of these statements are considered control flow statements in Java?",
+      "Fixed": false
+    },
+    {
+      "Response": "A primative datatype is the most basic datatype in Java. They serve as building blocks of data manipulation. They serve an individual perpose. To contain pure, simple values of some kind.",
+      "Options": [
+        {
+          "Type": "CHECKBOX",
+          "Valid": true,
+          "Text": "int"
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": false,
+          "Text": "String"
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": true,
+          "Text": "float"
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": true,
+          "Text": "boolean"
+        },
+        {
+          "Type": "CHECKBOX",
+          "Valid": false,
+          "Text": "Double"
+        }
+      ],
+      "Question": "Which are primitive datatypes in Java?",
+      "Fixed": false
+    },
+    {
+      "Response": "Different types of operators do different types of operations, some operators do logic where as other may do arithmatic.",
+      "Options": [
+        {
+          "Type": "BUTTON",
+          "Valid": true,
+          "Text": "== is an assignment operator"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": false,
+          "Text": "a += b increments a by b"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": false,
+          "Text": "a -= b decrements a by b"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": true,
+          "Text": "a + b adds b to a"
+        }
+      ],
+      "Question": "Which of the following description are incorrect?",
+      "Fixed": false
+    },
+    {
+      "Response": "When writing code its best to follow convensions so classes, fields and methods are all distingusible. Java is case sensitive, so capitalization needs to be in the correct place.",
+      "Options": [{
+        "Type": "MTEXT",
+        "Valid": false,
+        "Text": "%Public% static void main(String[] args){\n       System.%Out%.println(\"Hello World\");\n}"
+      }],
+      "Question": "Select mistakes within the following code.",
+      "Fixed": true
+    },
+    {
+      "Response": "The || operator or 'OR' operator is true if either the left hand or right hand side is true, otherwise it is false!",
+      "Options": [
+        {
+          "Type": "CODE",
+          "Valid": false,
+          "Text": "boolean a = true;\nboolean b = false;\nif(a || b){\n   System.out.println(\"Hello\");\n}else{\n   System.out.println(\"Goodbye\");\n}"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": true,
+          "Text": "Hello"
+        },
+        {
+          "Type": "BUTTON",
+          "Valid": false,
+          "Text": "Goodbye"
+        }
+      ],
+      "Question": "What would be the output of the following code?",
+      "Fixed": true
+    }
+  ]
+}
