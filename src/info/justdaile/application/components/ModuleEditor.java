@@ -44,7 +44,7 @@ public class ModuleEditor extends VBox {
 		addBox.setAlignment(Pos.CENTER);
 		HBox.setHgrow(addBox, Priority.ALWAYS);
 		addBtn.setOnAction(e -> {
-			this.module.addQuestion(new ModuleQuestion(Descriptions.DEAULT_QUESTION_TEXT, false));
+			this.module.addQuestion(new ModuleQuestion(Descriptions.DEFAULT_QUESTION_TEXT, false));
 			this.updateQuestions(questionContainer);
 		});
 		addBtn.setTooltip(new Tooltip(Descriptions.ADD_QUESTION_BUTTON));

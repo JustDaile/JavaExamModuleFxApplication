@@ -2,7 +2,7 @@ package info.justdaile.application.options;
 
 import javafx.scene.control.Button;
 
-public abstract class IgnoredSubmitOption extends EvaluatableOption {
+public abstract class IgnoredSubmitOption extends EvaluableOption {
 	
 	public IgnoredSubmitOption(String text) {
 		super(false);

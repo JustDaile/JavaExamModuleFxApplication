@@ -28,8 +28,8 @@ public class HighlightableMultiTextOption extends MultiPartSelectableOption{
 	}
 
 	@Override
-	public ArrayList<EvaluatableOption> initOptions() {
-		ArrayList<EvaluatableOption> a = new ArrayList<EvaluatableOption>();
+	public ArrayList<EvaluableOption> initOptions() {
+		ArrayList<EvaluableOption> a = new ArrayList<EvaluableOption>();
 		for(int i = 0; i < this.parts.size(); i++){
 			String text = parts.get(i);
 			boolean isCorrect = false;

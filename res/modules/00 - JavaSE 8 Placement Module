@@ -167,22 +167,22 @@
       "Response": "Different types of operators do different types of operations, some operators do logic where as other may do arithmatic.",
       "Options": [
         {
-          "Type": "BUTTON",
+          "Type": "CHECKBOX",
           "Valid": true,
           "Text": "== is an assignment operator"
         },
         {
-          "Type": "BUTTON",
+          "Type": "CHECKBOX",
           "Valid": false,
           "Text": "a += b increments a by b"
         },
         {
-          "Type": "BUTTON",
+          "Type": "CHECKBOX",
           "Valid": false,
           "Text": "a -= b decrements a by b"
         },
         {
-          "Type": "BUTTON",
+          "Type": "CHECKBOX",
           "Valid": true,
           "Text": "a + b adds b to a"
         }
@@ -195,7 +195,7 @@
       "Options": [{
         "Type": "MTEXT",
         "Valid": false,
-        "Text": "%Public% static void main(String[] args){\n       System.%Out%.println(\"Hello World\");\n}"
+        "Text": "%Public% static void main(String[] args){\n       System.%Out%.println(\"Hello World\");\n}%;%"
       }],
       "Question": "Select mistakes within the following code.",
       "Fixed": true

@@ -8,9 +8,9 @@ import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import javafx.scene.text.TextFlow;
 
-public abstract class MultiPartSelectableOption extends EvaluatableOption {
+public abstract class MultiPartSelectableOption extends EvaluableOption {
 
-	private List<EvaluatableOption> subOptions;
+	private List<EvaluableOption> subOptions;
 	private Insets padding = new Insets(15, 0, 0, 10);
 	private TextFlow flow;
 	
@@ -37,11 +37,11 @@ public abstract class MultiPartSelectableOption extends EvaluatableOption {
 
 	public float getTotalCorrectSubOptions(){
 		return subOptions.stream()
-				        .filter(EvaluatableOption::isValid)
+				        .filter(EvaluableOption::isValid)
 				        .count();
 	}
 	
-	public abstract ArrayList<EvaluatableOption> initOptions();
+	public abstract ArrayList<EvaluableOption> initOptions();
 
 	@Override
 	public void selectionChanged() {
@@ -52,22 +52,22 @@ public abstract class MultiPartSelectableOption extends EvaluatableOption {
 	public String toString(){
 		StringBuffer s = new StringBuffer();
 		subOptions.stream()
-                  .filter(EvaluatableOption::isValid)
+                  .filter(EvaluableOption::isValid)
                   .forEach(r -> s.append(r + " "));
 		return s.toString();
 	}
 	
 	@Override
 	public void reveal() {
-		this.getSelectableChildren(flow).forEach(EvaluatableOption::reveal);
+		this.getSelectableChildren(flow).forEach(EvaluableOption::reveal);
 	}
 	
 	@Override
 	public boolean eval(){
 		boolean eval = true;
-		List<EvaluatableOption> selected = this.getSelectableChildren(flow);
+		List<EvaluableOption> selected = this.getSelectableChildren(flow);
 		for(int i = 0; i < selected.size(); i++){
-			EvaluatableOption op = selected.get(i);
+			EvaluableOption op = selected.get(i);
 			if(eval){
 				eval = op.eval();
 			}

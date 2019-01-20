@@ -5,8 +5,8 @@ public interface Descriptions {
 	// New field text
 	final String DEFAULT_MODULE_TEXT = "Unnamed Module";
 	final String FIXED_DESCRIPTION = "Select if options should not be randomized.";
-	final String DEAULT_QUESTION_TEXT = "Enter new question!";
-	final String DEAULT_OPTION_TEXT = "Enter new option!";
+	final String DEFAULT_QUESTION_TEXT = "Enter new question!";
+	final String DEFAULT_OPTION_TEXT = "Enter new option!";
 	final String NO_INPUT_TEXT = "No input found!";
 
 	// Application launcher text

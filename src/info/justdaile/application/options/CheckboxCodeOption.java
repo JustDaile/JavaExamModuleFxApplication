@@ -6,7 +6,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 
-public class CheckboxCodeOption extends EvaluatableOption {
+public class CheckboxCodeOption extends EvaluableOption {
 
 	private String text;
 	private CheckBox checkbox;

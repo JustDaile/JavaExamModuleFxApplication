@@ -1,1 +1,50 @@
-{"Modules": []}
+{"Modules": [{
+  "Answers": [
+    {
+      "Answer": "\n-> == is an assignment operator",
+      "IsCorrect": false,
+      "Question": "Which of the following description are incorrect?"
+    },
+    {
+      "Answer": "",
+      "IsCorrect": false,
+      "Question": "Which are primitive datatypes in Java?"
+    },
+    {
+      "Answer": "",
+      "IsCorrect": true,
+      "Question": "Select mistakes within the following code."
+    },
+    {
+      "Answer": "\n-> Java Virtual Machine",
+      "IsCorrect": true,
+      "Question": "What does JVM stand for?"
+    },
+    {
+      "Answer": "\n-> Hello",
+      "IsCorrect": true,
+      "Question": "What would be the output of the following code?"
+    },
+    {
+      "Answer": "\n-> public\n-> private",
+      "IsCorrect": true,
+      "Question": "Which of these keywords are considered access modifiers?"
+    },
+    {
+      "Answer": "\n-> for(int i = 0; i < someValue; i+=1){\n     // do something\n}\n-> if(someValue == true){\n     // do something\n}else{\n     // do something else\n}\n-> do{\n     // do something\n}while(someValue == true);",
+      "IsCorrect": true,
+      "Question": "Which of these statements are considered control flow statements in Java?"
+    },
+    {
+      "Answer": "\n-> -=\n-> =\n-> +=",
+      "IsCorrect": true,
+      "Question": "Which of these symbols are called assignment operators?"
+    },
+    {
+      "Answer": "\n-> 3rd generation",
+      "IsCorrect": true,
+      "Question": "What generation programming language is Java?"
+    }
+  ],
+  "Title": "JavaSE 8 Placement Module"
+}]}

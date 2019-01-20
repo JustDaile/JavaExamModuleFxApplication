@@ -5,7 +5,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 
-public class InputOption extends EvaluatableOption {
+public class InputOption extends EvaluableOption {
 
 	private String expect[];
 	private TextField text;

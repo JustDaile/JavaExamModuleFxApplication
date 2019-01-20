@@ -6,7 +6,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.text.Font;
 
-public class ButtonOption extends EvaluatableOption {
+public class ButtonOption extends EvaluableOption {
 
 	private Button button;
 	

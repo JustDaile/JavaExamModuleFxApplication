@@ -5,7 +5,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 
-public class UnselectableCodeOption extends EvaluatableOption {
+public class UnselectableCodeOption extends EvaluableOption {
 
 	public UnselectableCodeOption(String text) {
 		super(false);

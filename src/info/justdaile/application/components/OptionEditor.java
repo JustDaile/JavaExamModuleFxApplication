@@ -71,7 +71,7 @@ public class OptionEditor extends VBox {
 		addBox.setAlignment(Pos.CENTER);
 		HBox.setHgrow(addBox, Priority.ALWAYS);
 		addBtn.setOnAction(e -> {
-			this.module.getQuestion(questionIndex).addOption(new ModuleOption(ButtonTypes.BUTTON, Descriptions.DEAULT_OPTION_TEXT, false));
+			this.module.getQuestion(questionIndex).addOption(new ModuleOption(ButtonTypes.BUTTON, Descriptions.DEFAULT_OPTION_TEXT, false));
 			this.updateOptions(optionContainer);
 		});
 		addBtn.setTooltip(new Tooltip(Descriptions.ADD_OPTION_BUTTON));

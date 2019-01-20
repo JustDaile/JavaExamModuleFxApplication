@@ -4,7 +4,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 
-public class SelectableTextOption extends EvaluatableOption {
+public class SelectableTextOption extends EvaluableOption {
 	
 	private Text text;
 	private static Font font = new Font(18);

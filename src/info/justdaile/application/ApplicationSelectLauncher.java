@@ -8,6 +8,9 @@ import info.justdaile.application.strings.Descriptions;
 import info.justdaile.application.strings.Labels;
 import info.justdaile.application.strings.Titles;
 import info.justdaile.application.strings.WindowText;
+import info.justdaile.application.windows.ModuleCreator;
+import info.justdaile.application.windows.ModuleMarker;
+import info.justdaile.application.windows.ModuleTests;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.Pos;
@@ -25,7 +28,7 @@ import javafx.stage.Stage;
 
 public class ApplicationSelectLauncher extends Application {
 
-	private static final HashMap<String, Object[]> APPS = new HashMap<String, Object[]>();
+	private static final HashMap<String, Object[]> APPS = new HashMap();
 	
 	public ApplicationSelectLauncher() {
 		final Object[] tester = {new ModuleTests(), Descriptions.TEST_APP_DESCRIPTION};
@@ -92,6 +95,7 @@ public class ApplicationSelectLauncher extends Application {
 	}
 
 	public static void main(String[] args) {
-		launch(args);
+		Application.launch(args);
 	}
+
 }
